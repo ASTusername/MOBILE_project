@@ -55,13 +55,13 @@ clean test
 ```
 ____
 <a id="jenkins"></a>
-## <img alt="Jenkins" height="25" src="media/logo/Jenkins.svg" width="25"/></a><a name="Сборка"></a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/AST_API_project/)</a>
+## <img alt="Jenkins" height="25" src="media/logo/Jenkins.svg" width="25"/></a><a name="Сборка"></a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/AST_MOBILE_project/)</a>
 <p align="center">  
-<a href="https://jenkins.autotests.cloud/job/AST_API_project"><img src="media/screenshots/JenkinsBuild.png" alt="Jenkins"/></a>  
+<a href="https://jenkins.autotests.cloud/job/AST_MOBILE_project/"><img src="media/screenshots/JenkinsBuild.png" alt="Jenkins"/></a>  
 </p>
 
 <a id="allure"></a>
-## <img src="media/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Allure <a target="_blank" href="https://jenkins.autotests.cloud/job/AST_API_project/allure/">отчёт</a>
+## <img src="media/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Allure <a target="_blank" href="https://jenkins.autotests.cloud/job/AST_MOBILE_project/allure/">отчёт</a>
 
 ### *Основная страница отчёта*
 
@@ -76,7 +76,7 @@ ____
 </p> 
 
 <a id="allure-testops"></a>
-## <img src="media/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/4026/launches">Allure TestOps</a>
+## <img src="media/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/4004/launches">Allure TestOps</a>
 
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="media/screenshots/AllureDash.png">  
@@ -96,3 +96,10 @@ ____
 <p align="center">  
 <img title="Telegram" src="media/screenshots/TG.png">  
 </p>  
+
+<a id="video"></a>
+## <img src="media/logo/Selenoid.svg" width="25" height="25"  alt="Selenoid"/></a> Примеры видео выполнения тестов на Selenoid
+
+<p align="center"> 
+<img title="Selenoid Video" src="media/video/Video.gif" width="650" height="350"  alt="video">  
+
