@@ -4,6 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.CollectionCondition.sizeGreaterThan;
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
@@ -39,5 +40,13 @@ public class SearchTests extends TestBase {
 
         step("Проверяем наличие ошибки", () ->
                 $(id("org.wikipedia.alpha:id/view_wiki_error_text")).shouldBe(visible));
+    }
+
+    @Test
+    @DisplayName("Проверка наличия заголовка")
+    void checkNewsHeaderTest() {
+        step("Проверка наличия заголовка в новостях", () -> {
+            $(id("org.wikipedia.alpha:id/view_card_header_title")).shouldHave(text("In the news"));
+        });
     }
 }
